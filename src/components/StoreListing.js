@@ -7,8 +7,8 @@ import { Image } from 'react-bootstrap';
 function StoreListing() {
     return (
         <div>
+            <Container style={{ marginTop: "40px", textAlign: "center", borderTop: '2px solid black' }}>
             <h2>Browse stores in Houston</h2>
-            <Container style={{ marginTop: "40px", textAlign: "center" }}>
                 <Row style={{ borderBottom: "1px solid #E8E9EB", display: "flex", justifyContent: "space-evenly"}} >
                     <Row>
                         <Col xs=".5" >
