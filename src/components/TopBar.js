@@ -1,12 +1,14 @@
 import Container from 'react-bootstrap/Container';
-import Navbar from 'react-bootstrap/Navbar'
+import Navbar from 'react-bootstrap/Navbar';
+import Nav from 'react-bootstrap/Nav';
+import Button from 'react-bootstrap/Button';
 
 
 function TopNav() {
     return (
         <Navbar bg="light" expand="lg" >
             <Navbar.Brand style={{margin: "5px 0 0 20px"}} href="#home">
-                <img src="[Instacart logo src]" /> 
+                <img src="#" width="64px" height="64px" alt="Place holder"/> 
             </Navbar.Brand>
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse id="basic-navbar-nav">
